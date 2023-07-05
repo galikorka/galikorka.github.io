@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALIKORKA - Destilados y licores gallegos</title>
+    <!-- Enlaza aquí los archivos CSS de Bootstrap y tu propio archivo CSS personalizado -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Enlaza aquí el archivo JavaScript de jQuery desde Google CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">GALIKORKA</a>
+            <!-- Agrega aquí los elementos de navegación (por ejemplo, productos, contacto, juegos) -->
+        </div>
+    </nav>
+
+    <!-- Encabezado -->
+    <header class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1 class="display-4">Descubre los auténticos licores gallegos</h1>
+            <p class="lead">Bienvenido a GALIKORKA, donde encontrarás una selección exclusiva de destilados y licores de
+                Galicia.</p>
+        </div>
+    </header>
+
+    <!-- Sección de Imágenes -->
+    <!-- <section id="imagenes" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Imágenes</h2>
+            <div id="carouselImagenes" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/wines/wine_1.png" class="d-block mx-auto img-fluid" alt="Imagen 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/wines/wine_2.png" class="d-block mx-auto img-fluid" alt="Imagen 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/imgwines//wine_3.png" class="d-block mx-auto img-fluid" alt="Imagen 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselImagenes"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselImagenes"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </section> -->
+<section id="imagenes" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Imágenes</h2>
+        <div id="carouselImagenes" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="1000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/wines/wine_1.png" class="d-block mx-auto img-fluid" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/wines/wine_2.png" class="d-block mx-auto img-fluid" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/wines/wine_3.png" class="d-block mx-auto img-fluid" alt="Imagen 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselImagenes"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselImagenes"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Sección de Productos -->
+<section id="productos" class="bg-dark text-white py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Productos</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h3 class="text-primary">Licores</h3>
+                <div id="carouselLicores" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card text-white bg-primary">
+                                <img src="assets/img/wines/wine_1.png" class="card-img-top img-fluid img-product" alt="Licor 1">
+                                <div class="card-body text-center"> <!-- Agregado text-center para centrar el contenido -->
+                                    <h5 class="card-title">Licor 1</h5>
+                                    <p class="card-text">Descripción del licor 1.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card text-white bg-primary">
+                                <img src="assets/img/wines/wine_2.png" class="card-img-top img-fluid img-product" alt="Licor 2">
+                                <div class="card-body text-center"> <!-- Agregado text-center para centrar el contenido -->
+                                    <h5 class="card-title">Licor 2</h5>
+                                    <p class="card-text">Descripción del licor 2.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card text-white bg-primary">
+                                <img src="assets/img/wines/wine_3.png" class="card-img-top img-fluid img-product" alt="Licor 3">
+                                <div class="card-body text-center"> <!-- Agregado text-center para centrar el contenido -->
+                                    <h5 class="card-title">Licor 3</h5>
+                                    <p class="card-text">Descripción del licor 3.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselLicores"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselLicores"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="text-danger">Gafas</h3>
+                <div id="carouselGafas" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card text-white bg-danger">
+                                <img src="assets/img/glasses/glass_1.jpg" class="card-img-top img-fluid img-product" alt="Gafa 1">
+                                <div class="card-body text-center"> <!-- Agregado text-center para centrar el contenido -->
+                                    <h5 class="card-title">Gafa 1</h5>
+                                    <p class="card-text">Descripción de la gafa 1.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card text-white bg-danger">
+                                <img src="assets/img/glasses/glass_2.jpg" class="card-img-top img-fluid img-product" alt="Gafa 2">
+                                <div class="card-body text-center"> <!-- Agregado text-center para centrar el contenido -->
+                                    <h5 class="card-title">Gafa 2</h5>
+                                    <p class="card-text">Descripción de la gafa 2.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card text-white bg-danger">
+                                <img src="assets/img/glasses/glass_3.jpg" class="card-img-top img-fluid img-product" alt="Gafa 3">
+                                <div class="card-body text-center"> <!-- Agregado text-center para centrar el contenido -->
+                                    <h5 class="card-title">Gafa 3</h5>
+                                    <p class="card-text">Descripción de la gafa 3.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselGafas"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselGafas"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto text-center">
+                    <p>Póngase en contacto con nosotros a través de WhatsApp:</p>
+                    <a href="https://wa.me/34644441665" class="btn btn-primary btn-lg">Enviar mensaje de WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Juegos -->
+    <section id="juegos" class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Juegos</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-primary">Juego 1</h3>
+                    <p>Descripción del juego 1.</p>
+                    <a href="#" class="btn btn-primary">Jugar</a>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-danger">Juego 2</h3>
+                    <p>Descripción del juego 2.</p>
+                    <a href="#" class="btn btn-danger">Jugar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>© 2023 GALIKORKA. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Enlaza aquí los archivos JavaScript de Bootstrap y tu propio archivo JavaScript personalizado -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+/* Archivo styles.css */
+
+/* Estilos personalizados */
+
+/* Estilos generales */
+body {
+    padding-top: 60px;
+    /* Ajusta el espacio para la barra de navegación fija en la parte superior */
+}
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+/* Estilos para imágenes */
+#imagenes {
+    /* Agrega estilos específicos para la sección de imágenes */
+}
+
+/* Estilos para productos */
+#productos {
+    /* Agrega estilos específicos para la sección de productos */
+}
+
+/* Estilos para contacto */
+#contacto {
+    /* Agrega estilos específicos para la sección de contacto */
+}
+
+/* Estilos para juegos */
+#juegos {
+    /* Agrega estilos específicos para la sección de juegos */
+}
+
+/* Ajustes para el carrusel de productos en versión desktop */
+@media (min-width: 992px) {
+    #carouselProductos .carousel-item .card-img-top {
+        max-height: 300px;
+        /* Ajusta la altura máxima de la imagen según sea necesario */
+        max-width: 100%;
+        /* Ajusta el ancho máximo de la imagen para ocupar todo el espacio disponible */
+        object-fit: contain;
+        /* Ajusta el modo de ajuste de la imagen */
+        margin-top: 10px;
+        /* Agrega un espacio de 10px desde la parte superior */
+        margin-bottom: auto;
+        /* Alinea verticalmente la imagen al centro */
+    }
+
+    #carouselLicores .carousel-item .card-img-top,
+    #carouselGafas .carousel-item .card-img-top {
+        max-height: 300px;
+        /* Ajusta la altura máxima de la imagen según sea necesario */
+        max-width: 100%;
+        /* Ajusta el ancho máximo de la imagen para ocupar todo el espacio disponible */
+        object-fit: contain;
+        /* Ajusta el modo de ajuste de la imagen */
+        margin-top: 10px;
+        /* Agrega un espacio de 10px desde la parte superior */
+        margin-bottom: auto;
+        /* Alinea verticalmente la imagen al centro */
+    }
+}
